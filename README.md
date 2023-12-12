@@ -3,11 +3,11 @@
 The Photography Site is a complex web application project that I worked on in 2023. 
 
 The main stack used in this project includes:
-- ASP.NET 7.0, utilizing "Blazor Server" technology for creating pages and functionality, with C# as the main language.
+- ASP.NET 7.0, utilizing [Blazor Server](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) technology for creating pages and functionality, with C# as the main language.
 - Entity Framework, used in conjunction with MySQL to provide databases.
-- Google Calendar API for event synchronization.
-- MudBlazor library for creating visual elements.
-- ImageSharp library for resizing photos and creating watermarked versions.
+- [Google Calendar API](https://developers.google.com/calendar/api/guides/overview) for event synchronization.
+- [MudBlazor](https://github.com/MudBlazor/MudBlazor) library for creating visual elements.
+- [ImageSharp](https://github.com/SixLabors/ImageSharp) library for resizing photos and creating watermarked versions.
 - Deployment on Ubuntu with NGINX serving as a reverse proxy server.
 - Utilization of Git version control technology for code management.
 
@@ -15,7 +15,7 @@ The main stack used in this project includes:
 
 It's a comprehensive web application for order tracking, planning, and monitoring.
 
-The website serves as an automated alternative to Bitrix24 or BaseCamp, integrating photography and album-making features. The app introduces work stages and time limits for each order, simplifying the order processing to a "conveyor belt". It allows all workers to perform their tasks independently, without requiring manual micro-management from the business owner and managers. It provides a single, well-organized platform that reduces the potential for mistakes caused by human factors. This application promotes work dedication, assists with employee management, and significantly enhances the client's capacity to handle a larger number of orders simultaneously, without needing to increase staff or time commitments. Moreover, it allows my customer to scale up their operations extensively because the app is designed to handle and support any volume of orders and workforce if necessary.
+The website serves as an automated alternative to Bitrix24 or BaseCamp, integrating photography and album-making features. The app introduces work stages and time limits for each order, simplifying the order processing into a 'conveyor belt' system. It allows all workers to perform their tasks independently, without requiring manual micro-management from the business owner and managers. As a result, managers waste 50%(!!!) less time on unnecessary work, such as filling tables with client information and managing order statuses manually. The application provides a single, well-organized platform that reduces the potential for mistakes caused by human factors and eliminates the need for employees to use personal cloud storages to share files. This application promotes work dedication, assists with employee management, and significantly enhances the client's capacity to handle a larger number of orders simultaneously (60% more), without needing to increase staff or time commitments. Moreover, it allows my customer to scale up their operations extensively since the app is designed to handle and support any amount of orders and workforce if necessary.
 
 In the app, each order has a list of customers, each of whom has the right to make individual choices of photos they like. Each customer can only choose a pre-defined number of photos they have paid for. The photos they have chosen are then synchronized with the database table and can be viewed by the managers and all the workers connected to this order: photographers, designers, and sorters.
 
